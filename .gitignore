@@ -1,0 +1,13 @@
+# Only the reviewed display materials belong in the public repository.
+*
+!.gitignore
+!README.md
+!FEATURES.md
+!COMMANDS.md
+!CHANGELOG.md
+!SUPPORT.md
+!NOTICE.md
+!PUBLISHING.md
+!assets/
+assets/*
+!assets/melancholy-banner.svg
