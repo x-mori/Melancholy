@@ -11,3 +11,10 @@
 !assets/
 assets/*
 !assets/melancholy-banner.svg
+!src/
+src/*
+!src/events/
+src/events/*
+!src/events/ready/
+src/events/ready/*
+!src/events/ready/ready.ts
