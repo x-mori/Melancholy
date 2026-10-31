@@ -10,7 +10,7 @@
 !PUBLISHING.md
 !assets/
 assets/*
-!assets/melancholy-banner.svg
+!assets/melancholy-discord-banner.png
 !src/
 src/*
 !src/events/
