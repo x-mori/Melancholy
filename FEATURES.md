@@ -6,7 +6,11 @@ Melancholy brings member activities and server tools into one Discord bot. Featu
 
 ### Profiles and progress
 
-Profiles bring together activity, badges, charms, and personal details on a pixel-art profile card. Level cards show message progress, with an extended view of nearby ranked members. Stats cover activity such as messages and voice time. One `/leaderboard` card covers levels, balances, charms, and Starlight. Members can choose whether to show their charm collection.
+Profiles bring together activity, badges, charms, and personal details on a pixel-art profile card. Level cards show message progress, with a view that adds your voice level and an extended view of nearby ranked members. Stats cover activity such as messages and voice time. Members can choose whether to show their charm collection.
+
+Voice leveling is a second level track beside message xp, up to level 100. Members earn voice xp for time spent talking with others, so it needs someone else in the channel, and deafened members, the AFK channel, and ignored leveling channels earn nothing. Voice xp also counts toward global profile xp.
+
+One `/leaderboard` card covers levels, voice, balances, charms, and Starlight. XP, messages, voice rank, and voice time can be ranked for today, this week, this month, or all time, and any board can be read from the highest or lowest rank.
 
 Starlight adds seasonal divisions and quests. Daily, weekly, and seasonal quest pages have separate views. It is a progression score, not a currency for purchases.
 
@@ -20,7 +24,7 @@ Each member keeps one birthday across every server, celebrated from midnight in 
 
 ### Music and game stats
 
-Last.fm integration covers browsing, charts, now playing, personal top charts, a music profile, and server rankings such as who knows and the music leaderboard. Game stats cover osu!, Chess.com, Lichess, Dota 2, and PUBG, with account linking so player lookups work without typing a name.
+Last.fm integration covers browsing, charts, now playing, personal top charts, a music profile, and server rankings such as who knows and the music leaderboard. `/music global` ranks linked accounts across every server by their plays of an artist, and `/music privacy` chooses whether your name shows there. Game stats cover osu!, Chess.com, Lichess, Dota 2, and PUBG, with account linking so player lookups work without typing a name.
 
 ### Things to do
 
@@ -28,7 +32,7 @@ Melancholy includes social actions, reputation, family, `/games` (dice, ship, tr
 
 ### Everyday utilities
 
-`/home` gathers common personal actions and reward readiness in one panel. `/help find` accepts a command name or a short goal such as `earn money`. Members can set AFK status, create reminders, check weather and timezones, browse image, font, quote, and color tools, and use context menu actions on messages or users.
+`/home` gathers common personal actions and reward readiness in one panel. `/help find` accepts a command name or a short goal such as `earn money`. Members can set AFK status, create reminders, check weather and timezones, browse image, font, quote, and color tools, and use context menu actions on messages or users. Every prefix command has a short alias, and a usage error shows what to type, with an example where one fits.
 
 ### Use it anywhere
 
@@ -40,10 +44,11 @@ Thirteen commands, including `/game`, `/music`, `/anime`, `/weather`, `/avatar`,
 - Configurable logs record server and moderation events and show exactly what changed.
 - Settings and protection tools support moderation rules, automation, welcome and verification flows, and other server behavior.
 - Role tools create and edit roles, including icons and gradient colors where available.
+- Voice xp can be turned on or off, with its own xp range and cooldown.
 - Birthday announcements and a birthday role can be set per server.
 - Economy tools include a server shop, custom occupations, and scheduled income for selected roles.
 - Configuration snapshots let authorized staff save, compare, and restore supported settings.
-- Activity and command analytics help staff see how the server uses Melancholy.
+- Activity views help staff see how active the server and its members are.
 
 ## Personal data controls
 

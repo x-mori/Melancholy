@@ -1,6 +1,6 @@
 # Command guide
 
-Use these commands as a starting point. Run `/help` in a server for the current command menu. Use `/help find` to search by name or by a goal. Melancholy's prefix is `!!`; many slash commands also have prefix counterparts, while some features are slash or context menu only.
+Use these commands as a starting point. Run `/help` in a server for the current command menu. Use `/help find` to search by name or by a goal. Melancholy's prefix is `!!`; many slash commands also have prefix counterparts, while some features are slash or context menu only. Every prefix command has a short alias, like `!!lb` for `!!leaderboard`, and `!!help <command>` lists its aliases and short forms.
 
 ## Start here
 
@@ -10,8 +10,8 @@ Use these commands as a starting point. Run `/help` in a server for the current 
 | `/help` | Browsable command categories. |
 | `/help find:reminder` | Commands related to a search term or goal. |
 | `/profile view` | Your profile card. |
-| `/level stats` | Level card and progress; `!!level` opens the same card. |
-| `/leaderboard` | Level, balance, charms, and Starlight boards in one panel. |
+| `/level stats` | Level card and progress, with options for your voice level and nearby ranks; `!!level` opens the same card. |
+| `/leaderboard` | Level, voice, balance, charms, and Starlight boards in one panel, with today, this week, and this month views for xp, messages, and voice. |
 | `/info user` | Overview, roles, and stats for a member. |
 | `/changelogs` | Release notes, with a version menu. |
 
@@ -24,7 +24,7 @@ Use these commands as a starting point. Run `/help` in a server for the current 
 | `/balance view` | View currency balances. |
 | `/cooldown` | Check reward and work timers. |
 | `/shop browse` | Browse the server, global, level card, and profile card shelves. |
-| `/shop inventory` | Use, gift, sell, or equip what you own. |
+| `/shop inventory` | Use, gift, sell, or equip what you own. `!!shop` does everything `/shop` can. |
 | `/starlight view` | See a seasonal profile. |
 | `/starlight quests` | Browse daily, weekly, and seasonal quests. |
 | `/starlight claim quest:<quest>` | Claim a completed quest reward. |
@@ -54,6 +54,8 @@ The prefix version is `!!birthday`, also `!!bday`.
 | `/music top` | Your top artists, songs, or albums for a period. |
 | `/music whoknows` | Who in the server plays an artist, song, or album most. |
 | `/music leaderboard` | Linked members ranked by scrobbles. |
+| `/music global` | Linked accounts in every server ranked by their plays of an artist. |
+| `/music privacy` | Choose whether global rankings show your Last.fm name. |
 | `/game osu player` | osu! profiles; other subcommands cover recent, best, beatmaps, and rankings. |
 | `/game chess`, `/game lichess` | Ratings, recent games, and leaderboards. |
 | `/game dota2`, `/game pubg` | Player stats, matches, and scoreboards. |
